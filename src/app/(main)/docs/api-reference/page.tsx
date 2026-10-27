@@ -562,7 +562,7 @@ export default function ApiReferencePage() {
             {
               name: "interactive",
               type: "boolean",
-              default: "false",
+              default: "true",
               description:
                 "Respond to mouse events (hover, cursor, callbacks).",
             },
@@ -757,7 +757,7 @@ export default function ApiReferencePage() {
             {
               name: "interactive",
               type: "boolean",
-              default: "false",
+              default: "true",
               description:
                 "Respond to mouse events (hover, cursor, callbacks).",
             },

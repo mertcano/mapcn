@@ -125,7 +125,7 @@ function CustomLayer() {
       map.off("mouseleave", "parks-fill", handleMouseLeave);
       map.off("mousemove", "parks-fill", handleMouseMove);
     };
-  }, [map, isLoaded, isLayerVisible]);
+  }, [map, isLoaded, isLayerVisible, addLayers]);
 
   const toggleLayer = () => {
     if (!map) return;
